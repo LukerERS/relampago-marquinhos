@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517431020710",
+    "project_id": "aula-android-96f4a",
+    "storage_bucket": "aula-android-96f4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517431020710:android:39775fdb1bcfb976af3867",
+        "android_client_info": {
+          "package_name": "com.example.relampagomarquinhos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517431020710-buih4in8sgk854paolcq6dd1295jqjme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtFb-frOqlv9T9tr9UxlgwQirtw_9x21k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517431020710-buih4in8sgk854paolcq6dd1295jqjme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
