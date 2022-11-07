@@ -3,6 +3,7 @@ package com.example.relampagomarquinhos
 import androidx.appcompat.app.AppCompatActivity
 import com.example.relampagomarquinhos.repository.RaceRepository
 import android.os.Bundle
+import com.example.relampagomarquinhos.fragment.RegisterRaceFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,16 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-
-
-        /*val race = Race(
-            "402",
-            10.5f,
-            Timestamp.now(),
-            "Toretto"
-        )
-        repository.save(
-            race
-        )*/
+        val dialogRegister = RegisterRaceFragment()
+        dialogRegister.show(supportFragmentManager, "DialogRegister")
     }
 }
