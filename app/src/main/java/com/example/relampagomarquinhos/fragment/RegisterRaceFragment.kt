@@ -11,8 +11,6 @@ import com.example.relampagomarquinhos.R
 import com.example.relampagomarquinhos.model.Race
 import com.example.relampagomarquinhos.repository.RaceRepository
 import com.google.firebase.Timestamp
-import com.google.firebase.Timestamp.now
-
 
 class RegisterRaceFragment :DialogFragment(){
     override fun onCreateView(
@@ -36,8 +34,8 @@ class RegisterRaceFragment :DialogFragment(){
 
         buttonSave.setOnClickListener {
             val raceName = editRace.text.toString()
-            val raceLocal = editRace.text.toString()
-            val raceTime = editRace.text.toString()
+            val raceLocal = editLocal.text.toString()
+            val raceTime = editTime.text.toString()
 
             RaceRepository.instance().save(
                 Race(
